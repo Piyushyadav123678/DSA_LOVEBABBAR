@@ -11,7 +11,7 @@ char grade( int marks){   // Char likhoge to bole no data type Char defined beca
     else if(marks>50 && marks<60){ return 'E';}
     else if(marks<50){ return 'F';}
 
-    // Default case if none of the above conditions are met
+    // Default case if none of the above conditions are met  upar agr koi bhi chal gaya to idhr nhi aayegavvkuch jarurat nhi thi iski lekin vo compiler bola krr de to krr diya
     return 'F';
 }
 
